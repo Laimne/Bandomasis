@@ -1,4 +1,4 @@
-mport axios from "axios";
+import axios from "axios";
 import { useContext, useEffect } from "react";
 import { useState } from "react";
 import Home from "../../Context/Home";
@@ -88,3 +88,4 @@ function Line({line}){
 </li>
   )
 }
+export default Line;
